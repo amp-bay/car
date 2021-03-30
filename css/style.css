@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    border: 1px solid white;
+    width: 1350px  ;
+    margin: auto;
+}
+#nav{
+    width: 100%;
+    margin: auto;
+    /* padding-bottom:1px */
+    /* padding-top: -6000px; */
+    height: 45px;
+    border: 0.5px solid black;
+    position: relative;
+    float: left;
+    background-color:#260957;
+
+
+}
+#nav a h3 span{
+    border:1px solid white;
+    border-radius: 40px 40px 40px 40px;
+    position: absolute;
+    top: 21px;
+    left: 60px;
+    height: 30px;
+    padding-top: 8px;
+    padding-left: 8px;
+    width: 110px;
+    letter-spacing: 1px;
+    font-family: helvetica;
+    font-style: border;
+    color: white;
+    background-color:purple;
+
+
+
+}
+
+
+#bar{
+    border: 1px solid #260957;
+    height: 15px;
+    width: 750px;
+    /* padding-bottom: -10px; */
+    /* float: left; */
+    position:absolute;
+    left: 400px;
+    bottom: 15px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-style: border;
+
+    /* font-family:arial; */
+}
+/* #content a img{
+    width: 100%;
+    height: 200px;
+
+
+} */
+#bar li{
+    display: inline;
+    padding: 100px 20px 0px 90px;
+    border: 1px ;
+    /* color: grey; */
+    
+    /* padding-top: 500px; */
+    
+}
+#bar ul li a {
+    /* padding: 50px 0px 1px 0px; */
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(153, 138, 138);
+}
+#signup{
+    border: 1px solid grey;
+    border-radius: 10px 10px 10px 10px;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    left: 1200px;
+    bottom: 4px;   
+    /* float: left; */
+    clear: both;
+    
+}
+#signup h4 spac{
+    font-family: helvetica;
+    /* font-style: border; */
+    letter-spacing: 3px;
+    color: grey;
+    
+    /* padding: 20px 0px 1px 0px; */
+
+}
+#signup h4 {
+    padding: 5px 0px 1px 0px;
+
+}
+#nav1{
+    border: 1px solid black;
+    height: 20px;
+    width: 100%;
+    margin:0px 10px 0px 0px;
+    clear: both;
+    text-align: center;
+    background-color: purple;
+    
+    /* float: left; */
+}
+#banner{
+    border: 1px solid white;
+    width: 100%
+}
+#banner img{
+    width: 100%;
+    height: 500px;
+}
+#form{
+    border: 1px solid white;
+    width: 1000px;
+    height: 70px;
+    position: relative;
+    left: 300px;
+    margin-top: 20px;
+    /* background-color: blue; */
+    padding-bottom: 30px;
+}
+
+input[type=text]{
+    border: 0.5px solid grey;
+    width: 500px;
+    height: 50px;
+    /* border-top: 2px; */
+    border-radius: 5px 0px 0px 5px;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+input[type=submit]{
+    border: 0.5px solid grey;
+    width: 100px;
+    height: 52px;
+    /* border-top: 2px; */
+    border-radius: 0px 5px 5px 0px;
+    /* float: left; */
+    position: absolute;
+    left: 550px;
+    top: 10px;
+    
+}
+#subhead{
+    text-align: center;
+
+}
+#content{
+    border: 1px solid white;
+    width: 100%;
+    height: 600px;
+
+}
+
+#convertible, #crossover, #pickup, #sedan, #sportcar, #suv{
+    border: 1px solid white;
+    padding: 40px;
+    /* width: 50px;
+    height: 50px; */
+    float: left;
+
+
+}
+#footer{
+    border: 1px solid white;
+    /* float: left; */
+    width: 100%;
+    height: 200px;   
+    clear: both;
+    margin-top: 30px;
+    position: relative;
+    background-color: purple;
+
+}
+#footer li{
+    list-style: none;
+    text-align: center;
+    font-size: 17px;
+
+}
+.f1,.f2,.f3{
+    border: 1px solid purple;
+    width: 20%;
+    height: 150px;
+    /* float: left; */
+}
+.f2,.f3{
+    border: 1px solid purple;
+    width: 20%;
+    height: 150px;
+    position: absolute;
+    /* float: left; */
+}
+.f1{
+    position: relative;
+    left: 50px;
+    top: 20px;
+
+
+}
+.f2{
+    position: absolute;
+    left: 500px;
+    bottom: 35px;
+    
+}
+.f3{
+    position: absolute;
+    left: 1000px;
+    bottom: 35px;
+    /* margin-bottom: 50px; */
+}
+.top{
+    position: relative;
+    left: 120px;
+    font-style: border;
+    font-size: 16px;
+}
+.top1{
+    position: relative;
+    left: 30px;
+    /* padding: 15px; */
+    margin: 10px;
+}
+
+/* <p>Convertible Begining</p> */
+
+#select{
+    border: 1px solid grey;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    /* padding-left: 20px; */
+}
+
+#content2{
+    border: 1px solid white;
+    width: 100%;
+    position: relative;
+
+}
+.convertiblesc{
+    float: left;
+    padding: 30px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+    border: 0.005px solid white;
+
+}
+.convertiblesc h3,.convertiblesc h2{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #333;
+    text-align: center;
+}
+/* <p>Sedan VALUE is off</p> */
+
+.convertibless{
+    float: left;
+    padding: 30px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    border: 0.005px solid white;
+
+}
+.convertibless h3,.convertibless h2{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #333;
+    text-align: center;
+}
